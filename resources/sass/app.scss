@@ -1,0 +1,38 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//fontawesome
+@import "~font-awesome/scss/font-awesome.scss";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.active {
+	text-decoration: underline;
+	color: black;
+}
+  .h-md-250 img {
+  	max-width: 140px;
+  	max-height: 150px;
+  }
+  .card-body h4{
+  	font-size: 14px;
+  	font-weight: bold;
+	font-style: italic;
+  }
+  .card-body p{
+  	font-size: 12px;
+  }
+
+	form label{
+		margin-top: 0.5em;
+		margin-bottom: 0px;
+	}
